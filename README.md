@@ -1,8 +1,6 @@
-# Curve Gauge Voting Analytics
+# Badger Lite Mockup
 
-Live demo: https://curve-gauge-voting-analytics.vercel.app
-
-A dashboard exploring Curve's gauge voting system and user behavior.
+A mockup for Badger's Newbie Friendly DApp Portal, Badger Lite.
 
 By @karlxlee, for Badger DAO.
 
