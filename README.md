@@ -1,5 +1,7 @@
 # Badger Lite Mockup
 
+Interactive mockup demo: https://badger-lite-mockup.vercel.app
+
 A mockup for Badger's Newbie Friendly DApp Portal, Badger Lite.
 
 ![Main page screenshot](public/main-page-screenshot.png "Main page screenshot")
