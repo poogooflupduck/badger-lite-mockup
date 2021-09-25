@@ -6,7 +6,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/outline";
 
 export default function Home(props) {
-  const title = "Badger Lite";
+  const title = "Badger Lite Mockup";
   useEffect(() => {
     document.body.style = "background: #181818;";
   }, []);
@@ -103,7 +103,7 @@ export default function Home(props) {
                     style={{ backgroundColor: "#F2A52B" }}
                     onClick={() => setOpen(!open)}
                   >
-                    <span className="text-black text-base uppercase font-bold">
+                    <span className="text-black text-sm uppercase font-bold">
                       Deposit & earn
                     </span>
                   </a>
@@ -136,7 +136,7 @@ export default function Home(props) {
         <div className="mt-12 space-y-6">
           <h2 className="text-4xl">Badger Lite</h2>
           <h6 className="text-base">
-            Earn and deposit in one click. Badger Lite puts your assets to work
+            Deposit and earn in one click. Badger Lite puts your assets to work
             and auto-compounds rewards.
           </h6>
         </div>
@@ -186,8 +186,8 @@ export default function Home(props) {
                 style={{ backgroundColor: "#F2A52B" }}
                 onClick={() => setOpen(!open)}
               >
-                <span className="text-black text-base uppercase font-bold">
-                  Deposit & earn
+                <span className="text-black text-sm font-bold">
+                  DEPOSIT & EARN
                 </span>
               </a>
             </div>
@@ -196,7 +196,7 @@ export default function Home(props) {
                 className="w-full px-3 py-2 h-auto rounded-lg text-center"
                 style={{ backgroundColor: "#121212" }}
               >
-                <span className="text-base uppercase font-bold">Withdraw</span>
+                <span className="text-white text-xs font-bold">WITHDRAW</span>
               </a>
             </div>
           </div>
@@ -261,8 +261,8 @@ export default function Home(props) {
                 style={{ backgroundColor: "#F2A52B" }}
                 onClick={() => setOpen(!open)}
               >
-                <span className="text-black text-base uppercase font-bold">
-                  Deposit & earn
+                <span className="text-black text-sm font-bold">
+                  DEPOSIT & EARN
                 </span>
               </a>
             </div>
@@ -271,7 +271,7 @@ export default function Home(props) {
                 className="w-full px-3 py-2 h-auto rounded-lg text-center"
                 style={{ backgroundColor: "#121212" }}
               >
-                <span className="text-base uppercase font-bold">Withdraw</span>
+                <span className="text-white text-xs font-bold">WITHDRAW</span>
               </a>
             </div>
           </div>

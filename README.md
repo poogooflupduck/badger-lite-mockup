@@ -4,6 +4,9 @@ Live demo: https://curve-gauge-voting-analytics.vercel.app
 
 A dashboard exploring Curve's gauge voting system and user behavior.
 
+![Main page screenshot](public/main-page-screenshot.png "Main page screenshot")
+![Responsive screenshot](public/responsive-screenshot.png "Responsive screenshot")
+
 By @karlxlee, for Badger DAO.
 
 ## How to use

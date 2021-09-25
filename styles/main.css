@@ -13,3 +13,34 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Regular.ttf"),
+    url("/fonts/Satoshi-Regular.woff") url("/fonts/Satoshi-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Medium.ttf"), url("/fonts/Satoshi-Medium.woff"),
+    url("/fonts/Satoshi-Medium.woff2");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+
+body {
+  font-family: Satoshi, Inter, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Satoshi, Inter, sans-serif;
+  font-weight: 500;
+}
